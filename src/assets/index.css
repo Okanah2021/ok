@@ -1,0 +1,122 @@
+/* 本代码由Okanah(okanah.cn)学习编写，欢迎交流Okanah@88.com */
+body{
+  background-color:gainsboro;
+  cursor: url(./cursor.png), auto;
+  width:590px;
+  margin:0 auto;
+  text-align:center;
+}
+.App {
+  margin: 0 auto;
+  text-align: center;
+}
+.App_ {
+    margin: 0 auto;
+    text-align: center;
+}
+.All_Hello {
+    margin: 0 auto;
+    text-align: center;
+}
+.LogoPic {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    width: 590px;
+}
+.HuTao {
+  margin-left:-40px;
+  list-style-type: none;
+}
+.Add_Button {
+  width: 150px;
+  height: 46px;
+  background-color: #e6dddd;
+  font-size: 21px;
+  margin-left:1px;
+}
+.Cls_Button {
+  width: 75px;
+  height: 46px;
+  background-color: #e6dddd;
+  font-size: 21px;
+  margin-left: 1px;
+}
+.Add_Input {
+  width: 225px;
+  height: 40px;
+  background-color: #e6dddd;
+  font-size: 21px;
+  padding:1px;
+}
+.kuangjia{
+  margin: 0 auto;
+  width: 590px;
+  height: 740px;
+}
+.IntroduceTitle {
+  margin: 0 auto;
+  float: left;
+  border: 2px solid #64636a; 
+  width: 375px;
+  height: 335px;
+  font-size: 22px;
+  margin-top:5px;
+  color:#581a11;
+  outline: 0;
+}
+.IDTitle {
+  margin: 0 auto;
+  float: right;
+  border: 2px solid #64636a; 
+  width: 200px;
+  height: 537px;
+  font-size: 22px;
+  margin-top:5px;
+  color:#581a11;
+  outline: 0;
+}
+.ContactTitle{
+  margin: 0 auto;
+  float: left;
+  border: 2px solid #64636a; 
+  width: 375px;
+  height: 190px;
+  font-size: 22px;
+  margin-top:8px;
+  color:#581a11;
+  outline: 0;
+}
+.GithubTitle{
+  margin: 0 auto;
+  float: left;
+  border: 2px solid #64636a; 
+  width: 130px;
+  height: 170px;
+  margin-top:8px;
+  color:#581a11;
+  outline: 0;
+}
+.FriendTitle{
+  margin: 0 auto;
+  float: right;
+  border: 2px solid #64636a; 
+  width: 445px;
+  height: 170px;
+  margin-top:8px;
+  margin-left: 5px;
+  color:#581a11;
+  outline: 0;
+}
+  .IntroduceTitle:empty::before {
+      content: attr(placeholder);
+      color: #999;
+  }
+.IntroduceText {
+  font-family: 'Bodoni MT';
+  font-size: 16.5px;
+  text-align:left;
+  margin-left:15px;
+  margin-right:12px;
+}
